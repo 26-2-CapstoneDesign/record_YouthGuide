@@ -1,0 +1,5 @@
+_sources/
+__pycache__/
+*.pyc
+.env
+*.pem

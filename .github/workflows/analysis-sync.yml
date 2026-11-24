@@ -1,0 +1,96 @@
+name: Sync project history and Notion
+
+on:
+  schedule:
+    - cron: '7,22,37,52 * * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'analysis/**'
+      - 'tools/**'
+      - '.github/workflows/analysis-sync.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: project-analysis-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    env:
+      NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+    steps:
+      - name: Check out analysis repository
+        uses: actions/checkout@v6
+        with:
+          ref: main
+
+      - name: Verify source access
+        id: source_access
+        env:
+          SOURCE_REPOS_TOKEN: ${{ secrets.SOURCE_REPOS_TOKEN }}
+        run: |
+          if [ -z "$SOURCE_REPOS_TOKEN" ]; then
+            echo '::warning::Set SOURCE_REPOS_TOKEN with Contents: read for FrontEnd and BackEnd to enable automatic updates.'
+            echo 'enabled=false' >> "$GITHUB_OUTPUT"
+          else
+            echo 'enabled=true' >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Check out FrontEnd
+        if: ${{ steps.source_access.outputs.enabled == 'true' }}
+        uses: actions/checkout@v6
+        with:
+          repository: 26-2-CapstoneDesign/FrontEnd
+          ref: develop
+          path: _sources/FrontEnd
+          fetch-depth: 0
+          token: ${{ secrets.SOURCE_REPOS_TOKEN }}
+          persist-credentials: false
+
+      - name: Check out BackEnd
+        if: ${{ steps.source_access.outputs.enabled == 'true' }}
+        uses: actions/checkout@v6
+        with:
+          repository: 26-2-CapstoneDesign/BackEnd
+          ref: develop
+          path: _sources/BackEnd
+          fetch-depth: 0
+          token: ${{ secrets.SOURCE_REPOS_TOKEN }}
+          persist-credentials: false
+
+      - name: Generate Obsidian notes
+        if: ${{ steps.source_access.outputs.enabled == 'true' }}
+        run: python3 tools/generate.py --frontend _sources/FrontEnd --backend _sources/BackEnd
+
+      - name: Publish updated notes
+        if: ${{ steps.source_access.outputs.enabled == 'true' }}
+        run: |
+          git add analysis
+          if git diff --cached --quiet; then exit 0; fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'docs: update project activity records'
+          git push origin HEAD:main
+
+      - name: Sync reviewed notes to Notion
+        if: ${{ env.NOTION_TOKEN != '' && steps.source_access.outputs.enabled == 'true' }}
+        env:
+          NOTION_PARENT_PAGE_ID: 3db7ea032e9880149835d874bc9fbd48
+          GITHUB_REPOSITORY: 26-2-CapstoneDesign/record_YouthGuide
+          GITHUB_REF_NAME: main
+        run: python3 tools/notion_sync.py
+
+      - name: Save Notion page IDs
+        if: ${{ env.NOTION_TOKEN != '' && steps.source_access.outputs.enabled == 'true' }}
+        run: |
+          git add analysis/.notion-pages.json
+          if git diff --cached --quiet; then exit 0; fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'chore: remember Notion page mapping'
+          git push origin HEAD:main
