@@ -1,0 +1,28 @@
+# Merge pull request #10 from 26-2-CapstoneDesign/jb
+
+- 저장소: [FrontEnd](https://github.com/26-2-CapstoneDesign/FrontEnd)
+- 작성자: [qwerpoiu1020](../people/90a350165112.md)
+- 작성 시각: 2026-10-15 12:10 KST (`2026-10-15T12:10:21+09:00`)
+- 커밋 시각: 2026-10-15 12:10 KST (`2026-10-15T12:10:21+09:00`)
+- 커미터: GitHub
+- 원본: [커밋 `70afbb4b5cdbd1dcfd90994bf0536a5afce5fa97`](https://github.com/26-2-CapstoneDesign/FrontEnd/commit/70afbb4b5cdbd1dcfd90994bf0536a5afce5fa97)
+
+## 변경 파일
+
+- `M` [ai_team_docs/docs/CURRENT_STATE.md](https://github.com/26-2-CapstoneDesign/FrontEnd/blob/70afbb4b5cdbd1dcfd90994bf0536a5afce5fa97/ai_team_docs/docs/CURRENT_STATE.md)
+- `A` [ai_team_docs/docs/worklogs/firstlogin-acquired-check-001__jb__20261012T011941Z.md](https://github.com/26-2-CapstoneDesign/FrontEnd/blob/70afbb4b5cdbd1dcfd90994bf0536a5afce5fa97/ai_team_docs/docs/worklogs/firstlogin-acquired-check-001__jb__20261012T011941Z.md)
+- `A` [ai_team_docs/docs/worklogs/firstlogin-acquired-date-001__jb__20261012T160042Z.md](https://github.com/26-2-CapstoneDesign/FrontEnd/blob/70afbb4b5cdbd1dcfd90994bf0536a5afce5fa97/ai_team_docs/docs/worklogs/firstlogin-acquired-date-001__jb__20261012T160042Z.md)
+- `A` [ai_team_docs/docs/worklogs/firstlogin-api-001__jb__20261012T161154Z.md](https://github.com/26-2-CapstoneDesign/FrontEnd/blob/70afbb4b5cdbd1dcfd90994bf0536a5afce5fa97/ai_team_docs/docs/worklogs/firstlogin-api-001__jb__20261012T161154Z.md)
+- `A` [ai_team_docs/docs/worklogs/firstlogin-header-001__jb__20261012T153505Z.md](https://github.com/26-2-CapstoneDesign/FrontEnd/blob/70afbb4b5cdbd1dcfd90994bf0536a5afce5fa97/ai_team_docs/docs/worklogs/firstlogin-header-001__jb__20261012T153505Z.md)
+- `A` [ai_team_docs/docs/worklogs/firstlogin-job-check-001__jb__20261012T155515Z.md](https://github.com/26-2-CapstoneDesign/FrontEnd/blob/70afbb4b5cdbd1dcfd90994bf0536a5afce5fa97/ai_team_docs/docs/worklogs/firstlogin-job-check-001__jb__20261012T155515Z.md)
+- `A` [ai_team_docs/docs/worklogs/firstlogin-order-001__jb__20261012T155108Z.md](https://github.com/26-2-CapstoneDesign/FrontEnd/blob/70afbb4b5cdbd1dcfd90994bf0536a5afce5fa97/ai_team_docs/docs/worklogs/firstlogin-order-001__jb__20261012T155108Z.md)
+- `A` [ai_team_docs/docs/worklogs/firstlogin-steps-001__jb__20261012T010431Z.md](https://github.com/26-2-CapstoneDesign/FrontEnd/blob/70afbb4b5cdbd1dcfd90994bf0536a5afce5fa97/ai_team_docs/docs/worklogs/firstlogin-steps-001__jb__20261012T010431Z.md)
+- `A` [ai_team_docs/docs/worklogs/firstlogin-ui-001__jb__20261012T154513Z.md](https://github.com/26-2-CapstoneDesign/FrontEnd/blob/70afbb4b5cdbd1dcfd90994bf0536a5afce5fa97/ai_team_docs/docs/worklogs/firstlogin-ui-001__jb__20261012T154513Z.md)
+- `M` [youth_guide/src/App.jsx](https://github.com/26-2-CapstoneDesign/FrontEnd/blob/70afbb4b5cdbd1dcfd90994bf0536a5afce5fa97/youth_guide/src/App.jsx)
+- `A` [youth_guide/src/api/onboarding.js](https://github.com/26-2-CapstoneDesign/FrontEnd/blob/70afbb4b5cdbd1dcfd90994bf0536a5afce5fa97/youth_guide/src/api/onboarding.js)
+- `M` [youth_guide/src/pages/FirstLogin.jsx](https://github.com/26-2-CapstoneDesign/FrontEnd/blob/70afbb4b5cdbd1dcfd90994bf0536a5afce5fa97/youth_guide/src/pages/FirstLogin.jsx)
+- `M` [youth_guide/src/styles/FirstLogin.css](https://github.com/26-2-CapstoneDesign/FrontEnd/blob/70afbb4b5cdbd1dcfd90994bf0536a5afce5fa97/youth_guide/src/styles/FirstLogin.css)
+
+## 해석
+
+실행 흐름과 변경 이유는 관련 코드·PR·이슈를 확인한 뒤 [작업 문서](../work/README.md)에 기록합니다.

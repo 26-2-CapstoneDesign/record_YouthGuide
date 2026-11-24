@@ -1,0 +1,55 @@
+# Merge remote-tracking branch 'origin/develop' into hl
+
+- 저장소: [FrontEnd](https://github.com/26-2-CapstoneDesign/FrontEnd)
+- 작성자: [ta4oozlp719](../people/8603e823fffc.md)
+- 작성 시각: 2026-10-26 17:23 KST (`2026-10-26T17:23:35+09:00`)
+- 커밋 시각: 2026-10-26 17:23 KST (`2026-10-26T17:23:35+09:00`)
+- 커미터: ta4oozlp719
+- 원본: [커밋 `fef2d72adbcd86cc4477715d285dad1e1fdb1c8a`](https://github.com/26-2-CapstoneDesign/FrontEnd/commit/fef2d72adbcd86cc4477715d285dad1e1fdb1c8a)
+
+## 변경 파일
+
+- `M` [ai_team_docs/docs/CURRENT_STATE.md](https://github.com/26-2-CapstoneDesign/FrontEnd/blob/fef2d72adbcd86cc4477715d285dad1e1fdb1c8a/ai_team_docs/docs/CURRENT_STATE.md)
+- `A` [ai_team_docs/docs/worklogs/auth-scroll-001__jb__20261015T042113Z.md](https://github.com/26-2-CapstoneDesign/FrontEnd/blob/fef2d72adbcd86cc4477715d285dad1e1fdb1c8a/ai_team_docs/docs/worklogs/auth-scroll-001__jb__20261015T042113Z.md)
+- `A` [ai_team_docs/docs/worklogs/brand-logo-001__jb__20261024T054658Z.md](https://github.com/26-2-CapstoneDesign/FrontEnd/blob/fef2d72adbcd86cc4477715d285dad1e1fdb1c8a/ai_team_docs/docs/worklogs/brand-logo-001__jb__20261024T054658Z.md)
+- `A` [ai_team_docs/docs/worklogs/firstlogin-browse-001__jb__20261015T044220Z.md](https://github.com/26-2-CapstoneDesign/FrontEnd/blob/fef2d72adbcd86cc4477715d285dad1e1fdb1c8a/ai_team_docs/docs/worklogs/firstlogin-browse-001__jb__20261015T044220Z.md)
+- `A` [ai_team_docs/docs/worklogs/firstlogin-cert-card-001__jb__20261015T050202Z.md](https://github.com/26-2-CapstoneDesign/FrontEnd/blob/fef2d72adbcd86cc4477715d285dad1e1fdb1c8a/ai_team_docs/docs/worklogs/firstlogin-cert-card-001__jb__20261015T050202Z.md)
+- `A` [ai_team_docs/docs/worklogs/firstlogin-cert-toggle-001__jb__20261015T150015Z.md](https://github.com/26-2-CapstoneDesign/FrontEnd/blob/fef2d72adbcd86cc4477715d285dad1e1fdb1c8a/ai_team_docs/docs/worklogs/firstlogin-cert-toggle-001__jb__20261015T150015Z.md)
+- `A` [ai_team_docs/docs/worklogs/firstlogin-job-levels-001__jb__20261016T173520Z.md](https://github.com/26-2-CapstoneDesign/FrontEnd/blob/fef2d72adbcd86cc4477715d285dad1e1fdb1c8a/ai_team_docs/docs/worklogs/firstlogin-job-levels-001__jb__20261016T173520Z.md)
+- `M` [youth_guide/index.html](https://github.com/26-2-CapstoneDesign/FrontEnd/blob/fef2d72adbcd86cc4477715d285dad1e1fdb1c8a/youth_guide/index.html)
+- `A` [youth_guide/public/logo.png](https://github.com/26-2-CapstoneDesign/FrontEnd/blob/fef2d72adbcd86cc4477715d285dad1e1fdb1c8a/youth_guide/public/logo.png)
+- `M` [youth_guide/src/App.jsx](https://github.com/26-2-CapstoneDesign/FrontEnd/blob/fef2d72adbcd86cc4477715d285dad1e1fdb1c8a/youth_guide/src/App.jsx)
+- `M` [youth_guide/src/components/Header.jsx](https://github.com/26-2-CapstoneDesign/FrontEnd/blob/fef2d72adbcd86cc4477715d285dad1e1fdb1c8a/youth_guide/src/components/Header.jsx)
+- `A` [youth_guide/src/data/certifications.js](https://github.com/26-2-CapstoneDesign/FrontEnd/blob/fef2d72adbcd86cc4477715d285dad1e1fdb1c8a/youth_guide/src/data/certifications.js)
+- `D` [youth_guide/src/pages/CertificationDetail.jsx](https://github.com/26-2-CapstoneDesign/FrontEnd/blob/fef2d72adbcd86cc4477715d285dad1e1fdb1c8a/youth_guide/src/pages/CertificationDetail.jsx)
+- `R099` [youth_guide/src/pages/auth/FindId.jsx](https://github.com/26-2-CapstoneDesign/FrontEnd/blob/fef2d72adbcd86cc4477715d285dad1e1fdb1c8a/youth_guide/src/pages/auth/FindId.jsx)
+- `R098` [youth_guide/src/pages/auth/FindIdComplete.jsx](https://github.com/26-2-CapstoneDesign/FrontEnd/blob/fef2d72adbcd86cc4477715d285dad1e1fdb1c8a/youth_guide/src/pages/auth/FindIdComplete.jsx)
+- `R099` [youth_guide/src/pages/auth/FindPassword.jsx](https://github.com/26-2-CapstoneDesign/FrontEnd/blob/fef2d72adbcd86cc4477715d285dad1e1fdb1c8a/youth_guide/src/pages/auth/FindPassword.jsx)
+- `R096` [youth_guide/src/pages/auth/FindPasswordComplete.jsx](https://github.com/26-2-CapstoneDesign/FrontEnd/blob/fef2d72adbcd86cc4477715d285dad1e1fdb1c8a/youth_guide/src/pages/auth/FindPasswordComplete.jsx)
+- `R094` [youth_guide/src/pages/auth/Login.jsx](https://github.com/26-2-CapstoneDesign/FrontEnd/blob/fef2d72adbcd86cc4477715d285dad1e1fdb1c8a/youth_guide/src/pages/auth/Login.jsx)
+- `R094` [youth_guide/src/pages/auth/SignUp.jsx](https://github.com/26-2-CapstoneDesign/FrontEnd/blob/fef2d72adbcd86cc4477715d285dad1e1fdb1c8a/youth_guide/src/pages/auth/SignUp.jsx)
+- `R096` [youth_guide/src/pages/auth/SignUpComplete.jsx](https://github.com/26-2-CapstoneDesign/FrontEnd/blob/fef2d72adbcd86cc4477715d285dad1e1fdb1c8a/youth_guide/src/pages/auth/SignUpComplete.jsx)
+- `A` [youth_guide/src/pages/certification/CertificationDetail.jsx](https://github.com/26-2-CapstoneDesign/FrontEnd/blob/fef2d72adbcd86cc4477715d285dad1e1fdb1c8a/youth_guide/src/pages/certification/CertificationDetail.jsx)
+- `A` [youth_guide/src/pages/certification/CertificationList.jsx](https://github.com/26-2-CapstoneDesign/FrontEnd/blob/fef2d72adbcd86cc4477715d285dad1e1fdb1c8a/youth_guide/src/pages/certification/CertificationList.jsx)
+- `R092` [youth_guide/src/pages/home/Home.jsx](https://github.com/26-2-CapstoneDesign/FrontEnd/blob/fef2d72adbcd86cc4477715d285dad1e1fdb1c8a/youth_guide/src/pages/home/Home.jsx)
+- `R099` [youth_guide/src/pages/mypage/ChangeId.jsx](https://github.com/26-2-CapstoneDesign/FrontEnd/blob/fef2d72adbcd86cc4477715d285dad1e1fdb1c8a/youth_guide/src/pages/mypage/ChangeId.jsx)
+- `R099` [youth_guide/src/pages/mypage/ChangePassword.jsx](https://github.com/26-2-CapstoneDesign/FrontEnd/blob/fef2d72adbcd86cc4477715d285dad1e1fdb1c8a/youth_guide/src/pages/mypage/ChangePassword.jsx)
+- `R100` [youth_guide/src/pages/mypage/MyPage.jsx](https://github.com/26-2-CapstoneDesign/FrontEnd/blob/fef2d72adbcd86cc4477715d285dad1e1fdb1c8a/youth_guide/src/pages/mypage/MyPage.jsx)
+- `R053` [youth_guide/src/pages/onboarding/FirstLogin.jsx](https://github.com/26-2-CapstoneDesign/FrontEnd/blob/fef2d72adbcd86cc4477715d285dad1e1fdb1c8a/youth_guide/src/pages/onboarding/FirstLogin.jsx)
+- `R100` [youth_guide/src/pages/review/ReviewDetail.jsx](https://github.com/26-2-CapstoneDesign/FrontEnd/blob/fef2d72adbcd86cc4477715d285dad1e1fdb1c8a/youth_guide/src/pages/review/ReviewDetail.jsx)
+- `R098` [youth_guide/src/pages/review/ReviewList.jsx](https://github.com/26-2-CapstoneDesign/FrontEnd/blob/fef2d72adbcd86cc4477715d285dad1e1fdb1c8a/youth_guide/src/pages/review/ReviewList.jsx)
+- `R100` [youth_guide/src/pages/review/ReviewWrite.jsx](https://github.com/26-2-CapstoneDesign/FrontEnd/blob/fef2d72adbcd86cc4477715d285dad1e1fdb1c8a/youth_guide/src/pages/review/ReviewWrite.jsx)
+- `A` [youth_guide/src/styles/CertificationDetail.css](https://github.com/26-2-CapstoneDesign/FrontEnd/blob/fef2d72adbcd86cc4477715d285dad1e1fdb1c8a/youth_guide/src/styles/CertificationDetail.css)
+- `A` [youth_guide/src/styles/CertificationList.css](https://github.com/26-2-CapstoneDesign/FrontEnd/blob/fef2d72adbcd86cc4477715d285dad1e1fdb1c8a/youth_guide/src/styles/CertificationList.css)
+- `M` [youth_guide/src/styles/ChangeId.css](https://github.com/26-2-CapstoneDesign/FrontEnd/blob/fef2d72adbcd86cc4477715d285dad1e1fdb1c8a/youth_guide/src/styles/ChangeId.css)
+- `M` [youth_guide/src/styles/ChangePassword.css](https://github.com/26-2-CapstoneDesign/FrontEnd/blob/fef2d72adbcd86cc4477715d285dad1e1fdb1c8a/youth_guide/src/styles/ChangePassword.css)
+- `M` [youth_guide/src/styles/FindId.css](https://github.com/26-2-CapstoneDesign/FrontEnd/blob/fef2d72adbcd86cc4477715d285dad1e1fdb1c8a/youth_guide/src/styles/FindId.css)
+- `M` [youth_guide/src/styles/FindPassword.css](https://github.com/26-2-CapstoneDesign/FrontEnd/blob/fef2d72adbcd86cc4477715d285dad1e1fdb1c8a/youth_guide/src/styles/FindPassword.css)
+- `M` [youth_guide/src/styles/FirstLogin.css](https://github.com/26-2-CapstoneDesign/FrontEnd/blob/fef2d72adbcd86cc4477715d285dad1e1fdb1c8a/youth_guide/src/styles/FirstLogin.css)
+- `M` [youth_guide/src/styles/Header.css](https://github.com/26-2-CapstoneDesign/FrontEnd/blob/fef2d72adbcd86cc4477715d285dad1e1fdb1c8a/youth_guide/src/styles/Header.css)
+- `M` [youth_guide/src/styles/Login.css](https://github.com/26-2-CapstoneDesign/FrontEnd/blob/fef2d72adbcd86cc4477715d285dad1e1fdb1c8a/youth_guide/src/styles/Login.css)
+- `A` [youth_guide/src/styles/ReviewWrite.css](https://github.com/26-2-CapstoneDesign/FrontEnd/blob/fef2d72adbcd86cc4477715d285dad1e1fdb1c8a/youth_guide/src/styles/ReviewWrite.css)
+
+## 해석
+
+실행 흐름과 변경 이유는 관련 코드·PR·이슈를 확인한 뒤 [작업 문서](../work/README.md)에 기록합니다.

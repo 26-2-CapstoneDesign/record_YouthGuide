@@ -1,0 +1,33 @@
+# Merge pull request #59 from 26-2-CapstoneDesign/fix/admin-mysql-test-baseline
+
+- 저장소: [BackEnd](https://github.com/26-2-CapstoneDesign/BackEnd)
+- 작성자: [upbit123](../people/e18eadd07160.md)
+- 작성 시각: 2026-11-24 01:36 KST (`2026-11-24T01:36:00+09:00`)
+- 커밋 시각: 2026-11-24 01:36 KST (`2026-11-24T01:36:00+09:00`)
+- 커미터: GitHub
+- 원본: [커밋 `bc06acde23eddcee1211ee2247be27ba72cf65e6`](https://github.com/26-2-CapstoneDesign/BackEnd/commit/bc06acde23eddcee1211ee2247be27ba72cf65e6)
+
+## 변경 파일
+
+- `M` [youth-guide-api/src/test/java/com/youthguide/api/admin/repository/AdminAuditQueryMySqlTest.java](https://github.com/26-2-CapstoneDesign/BackEnd/blob/bc06acde23eddcee1211ee2247be27ba72cf65e6/youth-guide-api/src/test/java/com/youthguide/api/admin/repository/AdminAuditQueryMySqlTest.java)
+- `M` [youth-guide-api/src/test/java/com/youthguide/api/admin/repository/AdminCertificateQueryMySqlTest.java](https://github.com/26-2-CapstoneDesign/BackEnd/blob/bc06acde23eddcee1211ee2247be27ba72cf65e6/youth-guide-api/src/test/java/com/youthguide/api/admin/repository/AdminCertificateQueryMySqlTest.java)
+- `M` [youth-guide-api/src/test/java/com/youthguide/api/admin/repository/AdminImportRunQueryMySqlTest.java](https://github.com/26-2-CapstoneDesign/BackEnd/blob/bc06acde23eddcee1211ee2247be27ba72cf65e6/youth-guide-api/src/test/java/com/youthguide/api/admin/repository/AdminImportRunQueryMySqlTest.java)
+- `M` [youth-guide-api/src/test/java/com/youthguide/api/admin/repository/AdminMemberQueryMySqlTest.java](https://github.com/26-2-CapstoneDesign/BackEnd/blob/bc06acde23eddcee1211ee2247be27ba72cf65e6/youth-guide-api/src/test/java/com/youthguide/api/admin/repository/AdminMemberQueryMySqlTest.java)
+- `M` [youth-guide-api/src/test/java/com/youthguide/api/admin/repository/AdminOverviewMySqlTest.java](https://github.com/26-2-CapstoneDesign/BackEnd/blob/bc06acde23eddcee1211ee2247be27ba72cf65e6/youth-guide-api/src/test/java/com/youthguide/api/admin/repository/AdminOverviewMySqlTest.java)
+- `M` [youth-guide-api/src/test/java/com/youthguide/api/admin/repository/AdminOverviewTransactionMySqlTest.java](https://github.com/26-2-CapstoneDesign/BackEnd/blob/bc06acde23eddcee1211ee2247be27ba72cf65e6/youth-guide-api/src/test/java/com/youthguide/api/admin/repository/AdminOverviewTransactionMySqlTest.java)
+- `M` [youth-guide-api/src/test/java/com/youthguide/api/admin/repository/AdminReportCommandMySqlTest.java](https://github.com/26-2-CapstoneDesign/BackEnd/blob/bc06acde23eddcee1211ee2247be27ba72cf65e6/youth-guide-api/src/test/java/com/youthguide/api/admin/repository/AdminReportCommandMySqlTest.java)
+- `M` [youth-guide-api/src/test/java/com/youthguide/api/admin/repository/AdminReportQueryMySqlTest.java](https://github.com/26-2-CapstoneDesign/BackEnd/blob/bc06acde23eddcee1211ee2247be27ba72cf65e6/youth-guide-api/src/test/java/com/youthguide/api/admin/repository/AdminReportQueryMySqlTest.java)
+- `M` [youth-guide-api/src/test/java/com/youthguide/api/admin/repository/ImportApplyWorkerMySqlTest.java](https://github.com/26-2-CapstoneDesign/BackEnd/blob/bc06acde23eddcee1211ee2247be27ba72cf65e6/youth-guide-api/src/test/java/com/youthguide/api/admin/repository/ImportApplyWorkerMySqlTest.java)
+- `M` [youth-guide-api/src/test/java/com/youthguide/api/admin/repository/ImportPreviewClaimMySqlTest.java](https://github.com/26-2-CapstoneDesign/BackEnd/blob/bc06acde23eddcee1211ee2247be27ba72cf65e6/youth-guide-api/src/test/java/com/youthguide/api/admin/repository/ImportPreviewClaimMySqlTest.java)
+- `M` [youth-guide-api/src/test/java/com/youthguide/api/admin/repository/ImportPreviewMySqlTest.java](https://github.com/26-2-CapstoneDesign/BackEnd/blob/bc06acde23eddcee1211ee2247be27ba72cf65e6/youth-guide-api/src/test/java/com/youthguide/api/admin/repository/ImportPreviewMySqlTest.java)
+- `M` [youth-guide-api/src/test/java/com/youthguide/api/admin/repository/ImportPreviewWorkerMySqlTest.java](https://github.com/26-2-CapstoneDesign/BackEnd/blob/bc06acde23eddcee1211ee2247be27ba72cf65e6/youth-guide-api/src/test/java/com/youthguide/api/admin/repository/ImportPreviewWorkerMySqlTest.java)
+- `M` [youth-guide-api/src/test/java/com/youthguide/api/admin/repository/MemberRestrictionMySqlTest.java](https://github.com/26-2-CapstoneDesign/BackEnd/blob/bc06acde23eddcee1211ee2247be27ba72cf65e6/youth-guide-api/src/test/java/com/youthguide/api/admin/repository/MemberRestrictionMySqlTest.java)
+- `M` [youth-guide-api/src/test/java/com/youthguide/api/admin/repository/NcsImportMySqlTest.java](https://github.com/26-2-CapstoneDesign/BackEnd/blob/bc06acde23eddcee1211ee2247be27ba72cf65e6/youth-guide-api/src/test/java/com/youthguide/api/admin/repository/NcsImportMySqlTest.java)
+- `M` [youth-guide-api/src/test/java/com/youthguide/api/admin/repository/RestoredSchemaFlywayTest.java](https://github.com/26-2-CapstoneDesign/BackEnd/blob/bc06acde23eddcee1211ee2247be27ba72cf65e6/youth-guide-api/src/test/java/com/youthguide/api/admin/repository/RestoredSchemaFlywayTest.java)
+- `M` [youth-guide-api/src/test/resources/admin-certificates/baseline.sql](https://github.com/26-2-CapstoneDesign/BackEnd/blob/bc06acde23eddcee1211ee2247be27ba72cf65e6/youth-guide-api/src/test/resources/admin-certificates/baseline.sql)
+- `M` [youth-guide-api/src/test/resources/admin-members/baseline.sql](https://github.com/26-2-CapstoneDesign/BackEnd/blob/bc06acde23eddcee1211ee2247be27ba72cf65e6/youth-guide-api/src/test/resources/admin-members/baseline.sql)
+- `M` [youth-guide-api/src/test/resources/admin-reports/baseline.sql](https://github.com/26-2-CapstoneDesign/BackEnd/blob/bc06acde23eddcee1211ee2247be27ba72cf65e6/youth-guide-api/src/test/resources/admin-reports/baseline.sql)
+
+## 해석
+
+실행 흐름과 변경 이유는 관련 코드·PR·이슈를 확인한 뒤 [작업 문서](../work/README.md)에 기록합니다.
